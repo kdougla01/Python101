@@ -1,14 +1,14 @@
-print ("Welcome to the program")
+print ("Welcome to Cineworld Program")
 
-name = input("What is your name? ")
+name = input("What film would you like to see? ")
 
-print (f"Well hello, {name}")
+print (f"You have chosen, {name}")
 
 age = int(input("What is your age? "))
 
 if age >= 18:
-	print ("You must be an adult then!")
+	print ("You can watch the film!")
 elif age >= 13:
-	print ("You must be a teenager")
+	print ("You must be with an adult")
 else:
-	print ("You are a child")
+	print ("You are a child, you can't watch the film")
